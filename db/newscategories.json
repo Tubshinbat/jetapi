@@ -1,0 +1,4 @@
+{"_id":{"$oid":"62c4712d24137a1958f44179"},"status":true,"mn":{"name":"Мэдээ мэдээлэл"},"createAt":{"$date":"2022-07-05T17:13:17.195Z"},"updateAt":{"$date":"2022-07-05T17:13:17.195Z"},"slug":"medee-medeelel","__v":0}
+{"_id":{"$oid":"62c4713424137a1958f4417e"},"status":true,"mn":{"name":"Арга хэмжээ"},"createAt":{"$date":"2022-07-05T17:13:24.324Z"},"updateAt":{"$date":"2022-07-05T17:13:24.324Z"},"slug":"arga-hemzhee","__v":0}
+{"_id":{"$oid":"62c4713a24137a1958f44183"},"status":true,"mn":{"name":"Зарлал"},"createAt":{"$date":"2022-07-05T17:13:30.675Z"},"updateAt":{"$date":"2022-07-05T17:13:30.675Z"},"slug":"zarlal","__v":0}
+{"_id":{"$oid":"62c4714324137a1958f44188"},"status":true,"mn":{"name":"Нээлттэй ажлын байр"},"createAt":{"$date":"2022-07-05T17:13:39.044Z"},"updateAt":{"$date":"2022-07-05T17:13:39.044Z"},"slug":"neelttey-azhlyn-bayr","__v":0}
