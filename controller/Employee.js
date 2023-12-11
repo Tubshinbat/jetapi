@@ -45,6 +45,7 @@ exports.getEmployees = asyncHandler(async (req, res) => {
   let sort = req.query.sort || { createAt: -1 };
   const select = req.query.select;
   const userInput = req.query;
+  const positionsIds = req.query.positionId || null;
 
   //FIELDS
   let status = req.query.status || null;
@@ -55,6 +56,9 @@ exports.getEmployees = asyncHandler(async (req, res) => {
   const positions = userInput["positions"];
 
   const query = Employees.find();
+
+  if (valueRequired(positionsIds))
+    query.find({ positions: { $in: positionsIds } });
 
   stringLanguageFld.map((el) => {
     if (valueRequired(userInput[el])) {
